@@ -1,27 +1,14 @@
-/* Archivo opcional para personalizaciones adicionales */
+
 body {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
 }
 
-footer {
-    padding: 20px 0;
-    background-color: #e9ecef;
-    color: #6c757d;
+.card:hover {
+    transform: translateY(-10px);
 }
-.sidebar {
-    margin-top: 70px; /* Ajusta este valor para desplazar hacia abajo */
-    margin-left: 70px; /* Ajusta este valor para desplazar hacia la derecha */
-    padding: 55px; /* Opcional: agrega relleno dentro de la barra lateral */
-    background-color: #f8f9fa; /* Opcional: cambia el color de fondo */
-    border: 1px solid #ddd; /* Opcional: agrega un borde */
-  
-}
-.sidebar .nav-link {
-    color: #333;
-}
-.sidebar .nav-link:hover {
-    background-color: #e9ecef;
-}
-body {
-    display: flex;
-}
+
+
+
