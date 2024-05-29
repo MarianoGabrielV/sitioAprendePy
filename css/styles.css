@@ -9,6 +9,11 @@ body {
 .card:hover {
     transform: translateY(-10px);
 }
+.carousel-item img {
+    width: 100%;
+    height: 600px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Esto asegurará que la imagen cubra el contenedor sin distorsionarse */
+}
 
 
 

@@ -14,3 +14,6 @@ function mostrarEjercicios(ejercicioId) {
     // Mostrar la imagen principal
     document.getElementById('mainContent').style.display = 'block';
 }
+
+
+ 
