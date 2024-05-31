@@ -16,4 +16,11 @@ function mostrarEjercicios(ejercicioId) {
 }
 
 
+$(document).ready(function(){
+    $('#carouselExampleCaptions').carousel({
+        interval: 3200 // Cambia este valor para ajustar el tiempo en milisegundos (1000 ms = 1 segundo)
+    });
+});
+
+
  
