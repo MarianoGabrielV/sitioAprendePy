@@ -11,7 +11,7 @@ body {
 }
 
 .img-principal {
-  width: 400px; /* Tamaño deseado */
+  width: 800px; /* Tamaño deseado */
     height: auto; /* Para mantener la proporción */
     display: block; /* Para que los márgenes automáticos funcionen */
     margin: 0 auto; /* Margen automático a la izquierda y derecha para centrar */
