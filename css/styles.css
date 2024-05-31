@@ -1,5 +1,5 @@
 body {
-    background-color: #181717;
+    background-color: #000000;
 }
 
 .card {
@@ -10,11 +10,14 @@ body {
     transform: translateY(-10px);
 }
 
-.carousel-item img {
-    width: 100%;
-    height: 600px; /* Ajusta la altura según tus necesidades */
-    object-fit: cover; /* Esto asegurará que la imagen cubra el contenedor sin distorsionarse */
+.img-principal {
+  width: 400px; /* Tamaño deseado */
+    height: auto; /* Para mantener la proporción */
+    display: block; /* Para que los márgenes automáticos funcionen */
+    margin: 0 auto; /* Margen automático a la izquierda y derecha para centrar */
+
 }
+
 
 .cards {
     display: flex;
