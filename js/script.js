@@ -22,5 +22,27 @@ $(document).ready(function(){
     });
 });
 
+// script.js
 
- 
+document.addEventListener('DOMContentLoaded', () => {
+    const fadeInElements = document.querySelectorAll('.fade-in-left, .fade-in-right');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    fadeInElements.forEach(element => {
+        observer.observe(element);
+    });
+});
+
+
+
+

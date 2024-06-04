@@ -237,6 +237,7 @@ ul {
     gap: 20px;
     color: #e8e8e8;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+   
 }
 
 .contentsub .heading {
@@ -274,6 +275,32 @@ ul {
 .contentsub .btn:active {
     box-shadow: none;
 }
+
+/* styles.css */
+
+/* Oculta los elementos inicialmente */
+.fade-in-left, .fade-in-right {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in-right {
+  transform: translateX(100%);
+}
+
+/* Clases que se activan cuando los elementos entran en la vista */
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+.cardsub.shift-right {
+  margin-left: 70%; /* Ajusta este valor según cuánto quieras desplazar la tarjeta */
+}
+
+
+
+
 
 
 /*
